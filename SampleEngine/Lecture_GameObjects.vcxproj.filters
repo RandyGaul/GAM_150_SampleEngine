@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{f0e564ea-779d-4a22-9f0d-0098878692cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Precompiled">
+      <UniqueIdentifier>{f60ff90b-c2e5-49e5-bc06-5bcf891606e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoreEngine">
+      <UniqueIdentifier>{8024c2fd-6592-432d-bd08-b382ec551128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Containers">
+      <UniqueIdentifier>{857ee871-bb20-42ff-901e-b562fd51f6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{7fa1129a-34ac-43f6-ae84-91689e516330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Message">
+      <UniqueIdentifier>{eb1ffcf7-7c8f-4a22-9d3e-d4475332d204}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object1.c">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Cecil%27s Damn PC\Desktop\Sandbox\Lecture_Serialization\Object2.c">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Cecil%27s Damn PC\Desktop\Sandbox\Lecture_Serialization\Precompiled.c">
+      <Filter>Source Files\Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectTable.c">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Cecil%27s Damn PC\Desktop\Sandbox\Lecture_Serialization\GameObject.c">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.c">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="List.c">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object1.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Cecil%27s Damn PC\Desktop\Sandbox\Lecture_Serialization\Object2.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Cecil%27s Damn PC\Desktop\Sandbox\Lecture_Serialization\Precompiled.h">
+      <Filter>Source Files\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectID.h">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectTable.h">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Source Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroHelpers.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Source Files\Message</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
